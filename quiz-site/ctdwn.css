@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Bree+Serif&family=Hahmlet&family=JetBrains+Mono&family=Playfair+Display&display=swap');
+
+
+/* *{
+    box-sizing: border-box;
+} */
+.navbar{
+    font-family: 'Bree Serif', serif;
+    margin: 50;
+    /* background: url('bg1.jpg'); */
+    /* background-repeat: no-repeat; 
+    background-size: cover;
+     background-position: center center;
+     min-height: 100vh;  */
+    /* display: flex; */
+    display: inline;
+    margin: auto;
+    /* flex-direction: row; */
+    /* align-items: center;
+    justify-content: center; */
+}
+/* .navbar h1{
+    font-weight: normal;
+    font-size: 3rem;
+    margin-top: -25rem;
+} */
+.countdown-container{
+    display: flex;
+    position: relative;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 2rem;
+    /* word-spacing: 5px; */
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.2rem;
+}

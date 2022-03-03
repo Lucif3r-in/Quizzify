@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Bree+Serif&family=Hahmlet&family=JetBrains+Mono&family=Playfair+Display&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hahmlet', serif;
+    margin: 0;
+    background: url('bg3.jpg') ;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+.quiz-header{
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
+  } */
+  h2{
+      margin: 0;
+      text-align: center;
+      padding: 1rem;
+  }
+  
+  ul li{
+      cursor: pointer;
+      font-size: 1.1rem;
+      margin: 1rem 0;
+  }
+  ul li:hover{
+    text-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+  }
+  ul li label {
+      cursor: pointer;
+      
+  }
+
+  button{
+      background-color: purple;
+      color: white;
+      display: block;
+      font-family: inherit;
+      width: 100%;
+      padding: 1rem;
+      font-size: 1rem;
+      border: none ;
+      cursor: pointer;
+      margin-top: 60px;
+  }
+
+  button:hover{
+    background-color: rgb(100, 2, 84);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  }
+ 
+  button:focus {
+      background-color: rgb(128, 41, 128);
+      outline: none;
+  }
